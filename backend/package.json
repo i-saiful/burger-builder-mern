@@ -1,0 +1,31 @@
+{
+  "name": "burger-builder-api",
+  "version": "1.0.0",
+  "description": "this is a burger builder api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "18.8.0"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Saiful Islam",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.5.4",
+    "morgan": "^1.10.0",
+    "ssl-commerz-node": "^1.0.4"
+  }
+}

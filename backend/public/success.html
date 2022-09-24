@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #F0F0F0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: .4rem;
+            padding: 2rem;
+            text-align: center;
+            line-height: 1.5;
+            color: #606060;
+            max-width: 35rem;
+        }
+
+        .checkmark {
+            font-size: 3.6rem;
+            border: 1px solid green;
+            border-radius: 50%;
+            width: 4rem;
+            height: 4rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="checkmark">&#10004;</div>
+        <h1>Thank You!</h1>
+        <h2>Your Payment is Successfully Done!</h2>
+        <p>Redirecting to dashboard....</p>
+    </div>
+    <script>
+        setTimeout(() => {
+            window.location = "https://burger-builder-2f77b.web.app"
+        }, 4000)
+    </script>
+</body>
+
+</html>
